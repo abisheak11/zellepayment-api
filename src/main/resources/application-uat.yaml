@@ -1,0 +1,8 @@
+server:
+  port : 9093
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@//localhost:1521/ORCL
+    username: scott
+    password: tiger

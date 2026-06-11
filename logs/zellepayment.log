@@ -1,0 +1,144 @@
+2026-05-15T07:06:50.274+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : Starting ZellepaymentApiApplication using Java 21.0.9 with PID 1240 (C:\Users\abi1p\Downloads\zellepayment-api\zellepayment-api\build\classes\java\main started by abi1p in C:\Users\abi1p\Downloads\zellepayment-api\zellepayment-api)
+2026-05-15T07:06:50.285+05:30 DEBUG 1240 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-05-15T07:06:50.286+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : The following 1 profile is active: "sit"
+2026-05-15T07:06:50.392+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\abi1p\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.9.0.25.07\4fe3479be8322eaac43f1cd0fb5818e93048201d\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/abi1p/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.9.0.25.07/4fe3479be8322eaac43f1cd0fb5818e93048201d/oraclepki.jar
+2026-05-15T07:06:50.394+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-15T07:06:50.394+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-15T07:06:52.574+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-15T07:06:52.772+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 184 ms. Found 5 JPA repository interfaces.
+2026-05-15T07:06:54.492+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-05-15T07:06:54.512+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-15T07:06:54.512+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-15T07:06:54.602+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4208 ms
+2026-05-15T07:06:55.224+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-15T07:06:55.737+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@645b5068
+2026-05-15T07:06:55.740+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-15T07:06:55.770+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-15T07:06:55.852+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-15T07:06:56.535+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-15T07:06:56.766+05:30  WARN 1240 --- [zellepayment-api] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2026-05-15T07:06:56.799+05:30  WARN 1240 --- [zellepayment-api] [restartedMain] org.hibernate.orm.jdbc                   : HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-05-15T07:06:56.803+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@//localhost:1521/ORCL]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 11.2
+	Default catalog/schema: undefined/SCOTT
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-15T07:06:58.106+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-15T07:06:58.116+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-15T07:06:58.228+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-15T07:06:58.996+05:30  WARN 1240 --- [zellepayment-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-15T07:07:00.040+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-05-15T07:07:00.186+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-05-15T07:07:00.200+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : Started ZellepaymentApiApplication in 10.532 seconds (process running for 13.149)
+2026-05-15T07:07:00.209+05:30  WARN 1240 --- [zellepayment-api] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-15T07:07:00.209+05:30  WARN 1240 --- [zellepayment-api] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-15T07:07:00.210+05:30  INFO 1240 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : Application started
+2026-05-15T07:08:20.183+05:30  INFO 1240 --- [zellepayment-api] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-15T07:08:20.184+05:30  INFO 1240 --- [zellepayment-api] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-15T07:08:20.189+05:30  INFO 1240 --- [zellepayment-api] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2026-05-15T07:08:22.470+05:30  INFO 1240 --- [zellepayment-api] [http-nio-9091-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1545 ms
+2026-05-15T07:08:36.017+05:30  INFO 1240 --- [zellepayment-api] [http-nio-9091-exec-6] c.z.c.CustomerProfileController          : inside the CustomerProfileController.getAllCustomer
+2026-05-15T07:08:36.019+05:30  INFO 1240 --- [zellepayment-api] [http-nio-9091-exec-6] c.z.services.CustomerProfileImpl         : inside the CustomerProfileImpl.getAllCustomerProfile
+2026-05-15T07:08:37.109+05:30 ERROR 1240 --- [zellepayment-api] [http-nio-9091-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: getsockopt: localhost/127.0.0.1:8081] with root cause
+
+java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:973) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.12.Final.jar:4.2.12.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-15T11:19:37.419+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : Starting ZellepaymentApiApplication using Java 21.0.9 with PID 6420 (C:\Users\abi1p\Downloads\zellepayment-api\zellepayment-api\build\classes\java\main started by abi1p in C:\Users\abi1p\Downloads\zellepayment-api\zellepayment-api)
+2026-05-15T11:19:37.422+05:30 DEBUG 6420 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : Running with Spring Boot v4.0.5, Spring v7.0.6
+2026-05-15T11:19:37.423+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : The following 1 profile is active: "sit"
+2026-05-15T11:19:37.498+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\abi1p\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.9.0.25.07\4fe3479be8322eaac43f1cd0fb5818e93048201d\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/abi1p/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.9.0.25.07/4fe3479be8322eaac43f1cd0fb5818e93048201d/oraclepki.jar
+2026-05-15T11:19:37.498+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-15T11:19:37.499+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-15T11:19:38.831+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-15T11:19:38.990+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 5 JPA repository interfaces.
+2026-05-15T11:19:39.874+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9091 (http)
+2026-05-15T11:19:39.895+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-15T11:19:39.896+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-05-15T11:19:39.964+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2464 ms
+2026-05-15T11:19:40.434+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-15T11:19:40.808+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1be9b1e3
+2026-05-15T11:19:40.810+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-15T11:19:40.842+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-15T11:19:40.930+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.7.Final
+2026-05-15T11:19:41.596+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-15T11:19:41.780+05:30  WARN 6420 --- [zellepayment-api] [restartedMain] org.hibernate.orm.core                   : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2026-05-15T11:19:41.805+05:30  WARN 6420 --- [zellepayment-api] [restartedMain] org.hibernate.orm.jdbc                   : HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-05-15T11:19:41.808+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@//localhost:1521/ORCL]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 11.2
+	Default catalog/schema: undefined/SCOTT
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-15T11:19:42.834+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-15T11:19:42.839+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-15T11:19:42.923+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-15T11:19:43.452+05:30  WARN 6420 --- [zellepayment-api] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-15T11:19:44.260+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-05-15T11:19:44.356+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9091 (http) with context path '/'
+2026-05-15T11:19:44.364+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : Started ZellepaymentApiApplication in 7.484 seconds (process running for 7.99)
+2026-05-15T11:19:44.370+05:30  WARN 6420 --- [zellepayment-api] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-05-15T11:19:44.370+05:30  WARN 6420 --- [zellepayment-api] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-05-15T11:19:44.371+05:30  INFO 6420 --- [zellepayment-api] [restartedMain] c.z.ZellepaymentApiApplication           : Application started
+2026-05-15T11:20:08.895+05:30  INFO 6420 --- [zellepayment-api] [http-nio-9091-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-15T11:20:08.896+05:30  INFO 6420 --- [zellepayment-api] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-15T11:20:08.899+05:30  INFO 6420 --- [zellepayment-api] [http-nio-9091-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-05-15T11:21:01.504+05:30  INFO 6420 --- [zellepayment-api] [http-nio-9091-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 817 ms
+2026-05-15T11:21:12.327+05:30  INFO 6420 --- [zellepayment-api] [http-nio-9091-exec-5] c.z.c.CustomerProfileController          : inside the CustomerProfileController.getAllCustomer
+2026-05-15T11:21:12.327+05:30  INFO 6420 --- [zellepayment-api] [http-nio-9091-exec-5] c.z.services.CustomerProfileImpl         : inside the CustomerProfileImpl.getAllCustomerProfile
+2026-05-15T11:21:13.038+05:30 ERROR 6420 --- [zellepayment-api] [http-nio-9091-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: getsockopt: localhost/127.0.0.1:8081] with root cause
+
+java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:973) ~[na:na]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:384) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.handle(AbstractNioChannel.java:432) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler$DefaultNioRegistration.handle(NioIoHandler.java:388) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKey(NioIoHandler.java:596) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeysOptimized(NioIoHandler.java:571) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler.processSelectedKeys(NioIoHandler.java:512) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.nio.NioIoHandler.run(NioIoHandler.java:484) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196) ~[netty-transport-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1195) ~[netty-common-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.2.12.Final.jar:4.2.12.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.2.12.Final.jar:4.2.12.Final]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-15T12:13:31.194+05:30  WARN 6420 --- [zellepayment-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m18s825ms938µs).
+2026-05-15T12:14:21.580+05:30  WARN 6420 --- [zellepayment-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s386ms894µs200ns).
+2026-05-15T14:23:24.654+05:30  WARN 6420 --- [zellepayment-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h6m33s25ms263µs700ns).
+2026-05-15T14:56:54.760+05:30  WARN 6420 --- [zellepayment-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m20ms784µs200ns).
+2026-05-15T16:29:47.905+05:30  WARN 6420 --- [zellepayment-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m50s916ms227µs900ns).
+2026-05-15T16:36:58.121+05:30  WARN 6420 --- [zellepayment-api] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m10s218ms58µs400ns).

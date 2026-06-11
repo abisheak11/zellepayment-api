@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: zellepayment-api
+server:
+  port: 9090
+logging:
+  level:
+    com:
+      zellepayment: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"
+  file:
+    name: logs/zellepayment.log
+    path: ./logs
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
