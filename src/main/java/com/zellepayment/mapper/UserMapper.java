@@ -9,7 +9,7 @@ import org.springframework.util.CollectionUtils;
 import java.util.List;
 
 public class UserMapper {
-// user mapper changes
+// user mapper changess
     public static UsersTO getUserMapper(Users users){
        UsersTO usersTO = new UsersTO();
        usersTO.setUserId(users.getUserId());
