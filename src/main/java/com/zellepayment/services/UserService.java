@@ -7,6 +7,7 @@ import com.zellepayment.model.UsersTO;
 
 
 import java.util.List;
+import java.util.Map;
 
 public interface UserService {
 
@@ -23,6 +24,7 @@ public interface UserService {
     String deleteUser(int userId)throws UsersException;
 
     String deleteUserByFullName(String fullName);
+
 
    // List<UsersTO> getRecords(String userId)throws UsersException;
 

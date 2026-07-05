@@ -10,6 +10,7 @@ import java.util.List;
 
 public class UserMapper {
 // user mapper changed
+    //user changes from dev
     public static UsersTO getUserMapper(Users users){
        UsersTO usersTO = new UsersTO();
        usersTO.setUserId(users.getUserId());

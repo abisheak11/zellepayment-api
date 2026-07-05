@@ -23,6 +23,7 @@ public class BankAccounts {
     //@Column(name = "USER_ID")
     //public Integer userId;
 
+
     @Column(name = "BANK_NAME")
     private String bankName;
 
